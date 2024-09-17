@@ -2,7 +2,7 @@ import pandas as pd
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
-import joblib
+# import joblib
 
 music_data = pd.read_csv('music.csv')
 X = music_data.drop(columns=['genre'])
